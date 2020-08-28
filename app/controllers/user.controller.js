@@ -17,6 +17,7 @@ exports.create = (req, res) => {
     uid: req.body.uid,
     username: req.body.username,
     name: req.body.name,
+    email: req.body.email,
     password: req.body.password
   };
 
@@ -128,4 +129,20 @@ exports.findAllUsers = (req, res) => {
           err.message || "Some error occurred while retrieving tutorials."
       });
     });
+};
+
+exports.allAccess = (req, res) => {
+  res.status(200).send("Public Content.");
+};
+
+exports.userBoard = (req, res) => {
+  res.status(200).send("User Content.");
+};
+
+exports.adminBoard = (req, res) => {
+  res.status(200).send("Admin Content.");
+};
+
+exports.moderatorBoard = (req, res) => {
+  res.status(200).send("Moderator Content.");
 };
