@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-express-sequelize-mysql",
+  "name": "Polaris Backend ExpressJS",
   "version": "1.0.0",
-  "description": "Node.js Rest Apis with Express, Sequelize & MySQL",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +14,8 @@
     "sequelize",
     "mysql"
   ],
-  "author": "bezkoder",
-  "license": "ISC",
+  "author": "polaris",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
